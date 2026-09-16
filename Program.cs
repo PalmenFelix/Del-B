@@ -31,3 +31,21 @@ I Program.cs: Skapa några kurser och några studerande, anmäl och avanmäl dem
 skriv ut med RollCall() och Schedule() så att det syns att båda hållen hänger ihop och att reglerna 
 ovan fungerar (t.ex. att en full kurs säger nej, och att dubbelanmälan inte ger dubbletter).
 */
+Student Niklas = new Student("Niklas");
+Student Pelle = new Student("Pelle");
+Student Anna = new Student("Anna");
+
+Course Math = new Course("Mathematics", 10);
+Course History = new Course("History", 2);
+Course Java = new Course("Java", 6);
+
+Niklas.Join(Math);
+Pelle.Join(Math);
+
+Anna.Join(History);
+Pelle.Join(History);
+Niklas.Join(History);
+
+Anna.Join(Java);
+Pelle.Join(Java);
+Niklas.Join(Java);
