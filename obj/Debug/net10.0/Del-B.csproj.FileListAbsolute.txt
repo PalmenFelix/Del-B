@@ -1,0 +1,15 @@
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\bin\Debug\net10.0\Del-B.exe
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\bin\Debug\net10.0\Del-B.deps.json
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\bin\Debug\net10.0\Del-B.runtimeconfig.json
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\bin\Debug\net10.0\Del-B.dll
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\bin\Debug\net10.0\Del-B.pdb
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\obj\Debug\net10.0\Del-B.GeneratedMSBuildEditorConfig.editorconfig
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\obj\Debug\net10.0\Del-B.AssemblyInfoInputs.cache
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\obj\Debug\net10.0\Del-B.AssemblyInfo.cs
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\obj\Debug\net10.0\Del-B.csproj.CoreCompileInputs.cache
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\obj\Debug\net10.0\Del-B.sourcelink.json
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\obj\Debug\net10.0\Del-B.dll
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\obj\Debug\net10.0\refint\Del-B.dll
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\obj\Debug\net10.0\Del-B.pdb
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\obj\Debug\net10.0\Del-B.genruntimeconfig.cache
+C:\Övning kod\Kunskapskontroll-1-C#\Del-B\obj\Debug\net10.0\ref\Del-B.dll
