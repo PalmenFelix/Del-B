@@ -24,7 +24,7 @@ class Student
     {
         foreach (Course course in Courses)
         {
-            Console.WriteLine("Studenten " + this + " går kursen " + course);
+            Console.WriteLine(this + " " + course);
         }
     }
 

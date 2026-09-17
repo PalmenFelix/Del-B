@@ -16,6 +16,7 @@ class Course
         if (Students.Count < MaxSeats)
         {
             Students.Add(student);
+            student.Courses.Add(this);
         }
         else
         {
@@ -31,15 +32,16 @@ class Course
 
     public void RollCall()
     {
+        Console.WriteLine("Course: " + Name);
+
         foreach (Student student in Students)
         {
-            Console.WriteLine(student + " is here");
+        Console.WriteLine(student + " is here");
         }
     }
 
     public override string ToString()
     {
-        return Name + " (" + Students.Count + "/" + MaxSeats + " platser)";
+        return Name + " (" + Students.Count + "/" + MaxSeats + " spots)";
     }
-
 }
