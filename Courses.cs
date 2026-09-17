@@ -25,9 +25,18 @@ class Course
 
     public void Remove(Student student)
     {
-        
+        Students.Remove(student);
+        student.Courses.Remove(this);
     }    
-    RollCall()     
+
+    public void RollCall()
+    {
+        foreach (Student student in Students)
+        {
+            Console.WriteLine(student + " is here");
+        }
+    }
+
     public override string ToString()
     {
         return Name + " (" + Students.Count + "/" + MaxSeats + " platser)";
