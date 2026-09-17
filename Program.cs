@@ -39,23 +39,26 @@ Course Math = new Course("Mathematics", 10);
 Course History = new Course("History", 2);
 Course Java = new Course("Java", 6);
 
-Math.Enroll(Niklas);
-Math.Enroll(Pelle);
+
+Console.WriteLine("Course: Mathematics");
+Niklas.Join(Math);
+Pelle.Join(Math);
 
 Math.RollCall();
 
-
-History.Enroll(Niklas);
-History.Enroll(Niklas);
-History.Enroll(Pelle);
-History.Enroll(Anna);
+Console.WriteLine("Course: History");
+Niklas.Join(History);
+Niklas.Join(History);
+Pelle.Join(History);
+Anna.Join(History);
 
 History.RollCall();
 
-
-Java.Enroll(Niklas);
-Java.Enroll(Pelle);
-Java.Enroll(Anna);
+Console.WriteLine("Course: Java");
+Niklas.Join(Java);
+Pelle.Join(Java);
+Anna.Join(Java);
+Niklas.Leave(Java);
 
 Java.RollCall();
 

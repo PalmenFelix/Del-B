@@ -36,8 +36,6 @@ class Course
 
     public void RollCall()
     {
-        Console.WriteLine("Course: " + Name);
-
         foreach (Student student in Students)
         {
         Console.WriteLine(student + " is here");

@@ -7,11 +7,10 @@ class Student
     {
         Name = name;
     }
-
+    
     public void Join(Course course)
     {
-        Courses.Add(course);
-        course.Students.Add(this);
+        course.Enroll(this);
     }
 
     public void Leave(Course course)
