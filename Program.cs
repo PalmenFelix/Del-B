@@ -44,11 +44,14 @@ Math.Enroll(Pelle);
 
 Math.RollCall();
 
+
+History.Enroll(Niklas);
 History.Enroll(Niklas);
 History.Enroll(Pelle);
 History.Enroll(Anna);
 
 History.RollCall();
+
 
 Java.Enroll(Niklas);
 Java.Enroll(Pelle);
@@ -56,8 +59,7 @@ Java.Enroll(Anna);
 
 Java.RollCall();
 
+
 Niklas.Schedule();
 Pelle.Schedule();
 Anna.Schedule();
-
-

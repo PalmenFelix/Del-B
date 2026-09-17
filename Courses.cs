@@ -13,14 +13,18 @@ class Course
 
     public void Enroll(Student student)
     {
-        if (Students.Count < MaxSeats)
+        if (Students.Count >= MaxSeats)
         {
-            Students.Add(student);
-            student.Courses.Add(this);
+            Console.WriteLine("Course is full");
+        }
+        else if (Students.Contains(student))
+        {
+            Console.WriteLine("Student is already in this course");
         }
         else
         {
-            Console.WriteLine("Course is full");
+            Students.Add(student);
+            student.Courses.Add(this);
         }
     }  
 
@@ -39,6 +43,7 @@ class Course
         Console.WriteLine(student + " is here");
         }
     }
+
 
     public override string ToString()
     {
