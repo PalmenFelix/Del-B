@@ -49,3 +49,7 @@ Niklas.Join(History);
 Anna.Join(Java);
 Pelle.Join(Java);
 Niklas.Join(Java);
+
+Niklas.Schedule();
+Pelle.Schedule();
+Anna.Schedule();

@@ -11,8 +11,26 @@ class Course
         MaxSeats = maxSeats;
     }
 
-    Enroll(Student student)
-    Remove(Student student)
-    RollCall()
-    ToString()  
+    public void Enroll(Student student)
+    {
+        if (Students.Count < MaxSeats)
+        {
+            Students.Add(student);
+        }
+        else
+        {
+            Console.WriteLine("Course is full");
+        }
+    }  
+
+    public void Remove(Student student)
+    {
+        
+    }    
+    RollCall()     
+    public override string ToString()
+    {
+        return Name + " (" + Students.Count + "/" + MaxSeats + " platser)";
+    }
+
 }
